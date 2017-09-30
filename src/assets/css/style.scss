@@ -1,0 +1,20 @@
+
+$test-color: red;
+
+@mixin test-mix ($width, $height, $color) {
+	width: $width;
+	height: $height;
+	border: solid $color 1px;
+}
+/*  if sticky header  */
+body { padding-top: 70px; }
+/* if sticky footer */
+body { padding-bottom: 70px; }
+
+.test-class {
+	@include test-mix (50px, 50px, green);
+} 
+
+.wrapper {
+
+}
