@@ -7,3 +7,5 @@
 
 <strong>Demo index page uses:</strong><br>
 Bootstrap Navbar, Jumbotron, Thumbnail, Panel, Modal and Sticky Footer Nav.
+
+View live [here](https://unit57.github.io/static-page-template/).
