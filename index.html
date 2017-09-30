@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	
 	<!-- Local stylesheet -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/assets/css/style.css">
 
 </head>
 <body>
@@ -42,11 +42,11 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
 	        <!-- PAGE 1 LINK -->
-	        <li >
-	        	<a href="index.html">PAGE 1 </a></li>
-	        <!-- PAGE 2 LINK -->
 	        <li class="active">
-	        	<a  href="page2.html">PAGE 2 <span class="sr-only">(current)</span> </a></li>
+	        	<a href="index.html">PAGE 1 <span class="sr-only">(current)</span></a></li>
+	        <!-- PAGE 2 LINK -->
+	        <li>
+	        	<a href="page2.html">PAGE 2</a></li>
 	        <!-- DROP DOWN MENU -->
 	        <li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -81,22 +81,27 @@
 	</nav>
 		
 	<div class="container wrapper">
-
+		<!-- HEADER -->
+		<div class="jumbotron">
+		  <h1>Hello, world!</h1>
+		  <p>...</p>
+		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+		</div>
 		<!-- THUMBNAILS -->
 		<div class="row">
 		  	<div class="col-md-4 animated bounce">
 			    <a href="#" class="thumbnail">
-			      <img src="assets/img/cats.jpg" alt="...">
+			      <img src="src/assets/img/sloth.jpg" alt="...">
 			    </a>
 		     </div>
 		    <div class="col-md-4 animated pulse infinite ">
 			    <a href="#" class="thumbnail">
-			      <img src="assets/img/cats.jpg" alt="...">
+			      <img src="src/assets/img/wonderwheel.jpg" alt="...">
 			    </a>
 		     </div>
 		    <div class="col-md-4">
 			    <a href="#" class="thumbnail animated shake">
-			      <img src="assets/img/cats.jpg" alt="...">
+			      <img src="src/assets/img/delorean.jpg" alt="...">
 			    </a>
 			 </div>
 		  </div>
@@ -105,11 +110,35 @@
 		  <div class="panel-heading">Panel heading without title</div>
 		  <div class="panel-body">
 		    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem sequi laboriosam earum ad, voluptas alias asperiores? Quo sequi, tempore. Illo, recusandae saepe quia quo reiciendis unde iste in enim libero.
-		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio doloribus perferendis delectus maiores, blanditiis nam commodi sunt vel sit expedita voluptatem ea aut amet quaerat ad dolores mollitia dolorem velit.</p>
-		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nisi odio soluta nostrum officia debitis, veritatis blanditiis ut repellat quis, cum, eos laboriosam reiciendis vero dolore explicabo, unde sed nihil.</p>
 		  </div>
 		</div>
 
+		<!-- MODAL -->
+		<div class="container">
+		  <h2>Modal Example</h2>
+		  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog">
+		    <div class="modal-dialog">
+		    
+		      <!-- Modal content-->
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title">Modal Header</h4>
+		        </div>
+		        <div class="modal-body">
+		          <p>Some text in the modal.</p>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        </div>
+		      </div>
+		      
+		    </div>
+		  </div>
 
 
 
