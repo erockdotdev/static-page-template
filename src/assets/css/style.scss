@@ -1,4 +1,4 @@
-//Cross browser CSS3 mixins
+// Cross browser CSS3 Mixins
 
 @mixin box-shadow($left, $top, $radius, $color) {
 	box-shadow: $left $top $radius $color;
@@ -39,24 +39,6 @@
 	background-image: -moz-linear-gradient(center top, $color1, $color2);
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), to($color2));
 }
-$test-color: red;
 
-@mixin test-mix ($width, $height, $color) {
-	width: $width;
-	height: $height;
-	border: solid $color 1px;
-}
-////
+//////////////////////////////////////////////////////////////////////////
 
-/*  if sticky header  */
-body { padding-top: 70px; }
-/* if sticky footer */
-body { padding-bottom: 70px; }
-
-.test-class {
-	@include test-mix (50px, 50px, green);
-} 
-
-.wrapper {
-
-}
