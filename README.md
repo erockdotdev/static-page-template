@@ -1,9 +1,34 @@
-### Static Page Template with:
+### Static Page Template
 
-* [Bootstrap 3.3.7](https://getbootstrap.com/docs/3.3/components/) 
+Technologies
+
+* [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [JQuery 3.2.1](https://developers.google.com/speed/libraries/#jquery)
-* [AmimateCSS](https://github.com/daneden/animate.css) 
-* SCSS file with cross-browser mixins for Box Shadow, Transition, Border Radius and Gradient.
+* [SCSS](https://sass-lang.com/)
 
 
-View live [here](https://unit57.github.io/static-page-template/).
+
+### Dependencies
+
+SASS
+```
+* sudo gem install sass -n /usr/local/bin
+```
+
+### Instructions
+
+1. Download Repo
+2. Open index.html in Browser
+3. Watch SCSS file
+
+To compile/watch SCSS
+
+1. cd into `src/assets/css`
+2. run `sass --watch style.scss:style.css`
+
+
+### Notes
+* A SCSS file is included with cross-browser mixins for Box Shadow, Transition, Border Radius and Gradient.
+[AmimateCSS](https://github.com/daneden/animate.css) is great addition for css animations.
+
+* View live [here](https://unit57.github.io/static-page-template/).
