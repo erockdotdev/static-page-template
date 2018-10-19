@@ -17,7 +17,7 @@ SASS
 
 ### Instructions
 
-1. Download Repo
+1. Download repo
 2. Open index.html in Browser
 3. Watch SCSS file
 
@@ -28,6 +28,6 @@ To compile/watch SCSS
 
 
 ### Notes
-[AmimateCSS](https://github.com/daneden/animate.css) is great addition for css animations.
+* [AmimateCSS](https://github.com/daneden/animate.css) is great addition for css animations.
 
 * View live [here](https://unit57.github.io/static-page-template/).
