@@ -1,6 +1,6 @@
 ### Static Page Template
 
-Technologies
+Technologies Included
 
 * [Bootstrap 4.0](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [JQuery 3.2.1](https://developers.google.com/speed/libraries/#jquery)
