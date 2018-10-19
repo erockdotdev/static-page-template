@@ -28,6 +28,6 @@ To compile/watch SCSS
 
 
 ### Notes
-[AmimateCSS](https://github.com/daneden/animate.css) is great addition for css animations.
+* [AmimateCSS](https://github.com/daneden/animate.css) is great addition for css animations.
 
 * View live [here](https://unit57.github.io/static-page-template/).
