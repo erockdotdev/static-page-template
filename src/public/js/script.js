@@ -1,5 +1,3 @@
-$(document).ready(()=> {
-
-  console.log("connected")
-
+$(document).ready(() => {
+  console.log('connected');
 });
