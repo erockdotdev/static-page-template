@@ -28,7 +28,6 @@ To compile/watch SCSS
 
 
 ### Notes
-* A SCSS file is included with cross-browser mixins for Box Shadow, Transition, Border Radius and Gradient.
 [AmimateCSS](https://github.com/daneden/animate.css) is great addition for css animations.
 
 * View live [here](https://unit57.github.io/static-page-template/).
