@@ -1,2 +1,5 @@
 .DS_Store
+
+# ignore SASS build files
 .sass-cache/
+**.css.map
