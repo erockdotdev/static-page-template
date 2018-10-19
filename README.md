@@ -17,7 +17,7 @@ SASS
 
 ### Instructions
 
-1. Download Repo
+1. Download repo
 2. Open index.html in Browser
 3. Watch SCSS file
 
